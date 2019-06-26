@@ -175,8 +175,21 @@ aside#sidebar input, aside#sidebar textarea {
 }
 
 img{
+
   width: 250px;
   height: 250px;
+}
+.img2 {
+  padding-left: 0px;
+  padding-top: 50px; 
+  width: 250px;
+  height: 250px;
+  padding-bottom: 300px;
+  
+}
+
+.spesifikasi {
+  text-align: left;
 }
 
 /* Services */
