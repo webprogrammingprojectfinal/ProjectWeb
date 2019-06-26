@@ -414,9 +414,6 @@ ul#services h3{
 .button-radius:hover{
   padding-left: 20px;
   padding-right: 40px;
-<<<<<<< HEAD
-}
-=======
 }
 
 .AddChart:link, .AddChart:visited {
@@ -431,4 +428,3 @@ ul#services h3{
 .AddChart:hover, .AddChart:active {
   background-color: red;
 }
->>>>>>> ff7a7b530a76a5e6d59ec75c642a608efcef3e0b
