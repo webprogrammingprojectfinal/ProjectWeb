@@ -197,8 +197,21 @@ aside#sidebar input, aside#sidebar textarea {
 }
 
 img{
+
   width: 250px;
   height: 250px;
+}
+.img2 {
+  padding-left: 0px;
+  padding-top: 50px; 
+  width: 250px;
+  height: 250px;
+  padding-bottom: 300px;
+  
+}
+
+.spesifikasi {
+  text-align: left;
 }
 
 /* Services */
@@ -437,6 +450,8 @@ ul#services h3{
   padding-left: 20px;
   padding-right: 40px;
 }
+<<<<<<< HEAD
+=======
 
 .AddChart:link, .AddChart:visited {
   background-color: #f44336;
@@ -450,3 +465,4 @@ ul#services h3{
 .AddChart:hover, .AddChart:active {
   background-color: red;
 }
+>>>>>>> f23ca59e7ad5c2e11a4435d1f5acb1fd69c844a4
