@@ -203,11 +203,11 @@ img{
 }
 .img2 {
   padding-left: 0px;
-  padding-top: 50px; 
+  padding-top: 50px;
   width: 250px;
   height: 250px;
   padding-bottom: 300px;
-  
+
 }
 
 .spesifikasi {
@@ -450,8 +450,7 @@ ul#services h3{
   padding-left: 20px;
   padding-right: 40px;
 }
-<<<<<<< HEAD
-=======
+
 
 .AddChart:link, .AddChart:visited {
   background-color: #f44336;
@@ -465,4 +464,72 @@ ul#services h3{
 .AddChart:hover, .AddChart:active {
   background-color: red;
 }
->>>>>>> f23ca59e7ad5c2e11a4435d1f5acb1fd69c844a4
+
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+table .tbl{
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100px%;
+  font-size: 50px;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 10px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+/* Sidebar */
+aside#sidebar {
+  float: right;
+  width: 30%;
+  padding: 5px;
+}
+
+article#main-col{
+  float: left;
+  width: 65%;
+}
+
+aside#sidebar input, aside#sidebar textarea {
+  width: 90%;
+  padding: 5px;
+}
