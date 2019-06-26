@@ -145,7 +145,7 @@ header a:hover{
 #boxes .box{
   float:left;
   text-align: center;
-  width: 30%;
+  width: 23%;
   padding: 10px;
 }
 
@@ -428,3 +428,19 @@ ul#services h3{
   padding-left: 20px;
   padding-right: 40px;
 }
+<<<<<<< HEAD
+=======
+
+.AddChart:link, .AddChart:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 8px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.AddChart:hover, .AddChart:active {
+  background-color: red;
+}
+>>>>>>> f23ca59e7ad5c2e11a4435d1f5acb1fd69c844a4
