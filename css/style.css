@@ -1,3 +1,122 @@
+/* Header */
+#wrapper{
+  font-family:tahoma;
+}
+.container{
+  width: 95%;
+  margin:0 auto;
+}
+#subheader{
+  width: 100%;
+  height: 30px;
+  background: yellow;
+  color: blue;
+  margin-top: -15px;
+}
+#subheader p{
+  float: left;
+  margin-top:  7px;
+}
+#subheader a{
+  float: right;
+  line-height: 30px;
+  color: black;
+  text-decoration: none;
+  margin-left: 30px;
+}
+/*Main header isi logo*/
+#main-header{
+  width: 100%;
+  height: 100px;
+  background:#1aaa1a;
+  float: left;
+  margin-top: -15px;
+}
+#logo{
+  width: 250px;
+  margin-top: 10px;
+  float: left;
+}
+#IsiLogo{
+  color: black;
+  font-size: 45px;
+  font-weight: bold;
+  margin-left: 15px;
+  font-family: cursive;
+}
+#IsiLogo2{
+  color: black;
+  font-size: 35px;
+  font-weight: bold;
+  margin-left: 15px;
+  font-family: cursive;
+}
+/*cari dp css */
+#cari{
+  width: 650px;
+  float: left;
+  padding: 20;
+  margin-left: 100px;
+}
+.search-area{
+  width: 550px;
+  height: 50px;
+  background:#e33667;
+  border: none;
+  border-radius: 10px;
+  float: left;
+  padding-left: 15px;
+}
+.search-btn{
+  width: 100px;
+  height: 50px;
+  background:brown;
+  border: none;
+  border-radius: 10px;
+  margin-left: 100px;
+  color:#fff;
+}
+/*menu styling*/
+#user-menu{
+  width: 300px;
+  float: right;
+  margin-top: 20px;
+}
+#user-menu{
+  width: 300px;
+  float: right;
+  margin-top: 20px;
+}
+#user-menu li:hover{
+  font-size: 30px;
+  transition: all .5s ease;
+}
+#user-menu li a{
+  color: white;
+  text-decoration: none;
+}
+.navigation{
+  width: 100%;
+  height: 35px;
+  background: 1aaa1a;
+  float: left;
+  box-shadow: 10px, 15px, 50px, 2px #1aaa1a;
+}
+nav{
+  width: 1280px;
+  margin:0 auto;
+}
+nav a{
+  margin-left: 35px;
+  color: white;
+  text-decoration: none;
+}
+nav a:hover{
+  color: #000;
+  transition: all .7s ease;
+}
+/*batas navigasi*/
+
 body {
   font: 15px/1.5 Arial, Helvetica, sans-serif;
   padding: 0px;
@@ -24,74 +143,6 @@ ul{
   padding: 0;
 }
 
-/* Header */
-
-header{
-  background: #353637;
-  color: #ffffff;
-  padding-top: 30px;
-  min-height: 70px;
-  border-bottom: #32a0c2 3px solid;
-}
-
-header .head1{
-  background: #353637;
-  color: #ffffff;
-  padding-top: 30px;
-  min-height: 70px;
-  border-bottom: #32a0c2 3px solid;
-  border-style: none;
-}
-
-header .header2{
-  background-color: white;
-  text-align: center;
-  color: #ffffff;
-  border-style: none;
-}
-
-header a{
-  color: #ffffff;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-size: 16px;
-}
-
-header li{
-  float: left;
-  display: inline;
-  padding: 0 20px 0 20px;
-}
-
-header #branding {
-  float: left;
-}
-
-header #branding h1{
-  margin: 0;
-}
-
-header nav{
-  float: right;
-  margin-top: 10px;
-}
-
-header .highlight, header .current a {
-  color: #32a0c2;
-  font-weight: bold;
-}
-
-header a:hover{
-  color: #cccccc;
-  font-weight: bold;
-}
-
-.head1 h3{
-  font-style: Arial;
-  font-size: 15px;
-  text-align: left;
-
-}
 /* Showcase */
 
 #showcase {
@@ -630,4 +681,4 @@ aside#sidebar input, aside#sidebar textarea {
  content: "";
  display: table;
  clear: both;
-} 
+}
